@@ -1,0 +1,3430 @@
+commit 52998769971c8268054e5e7ed771a91d58c8d088
+Author: Shayne <shaynepag@gmail.com>
+Date:   Sat Oct 10 01:44:18 2026 +0000
+
+    images, pages
+
+diff --git a/about.html b/My Portfolio/about.html
+similarity index 100%
+rename from about.html
+rename to My Portfolio/about.html
+diff --git a/contact.html b/My Portfolio/contact.html
+similarity index 100%
+rename from contact.html
+rename to My Portfolio/contact.html
+diff --git a/My Portfolio/images b/My Portfolio/images
+new file mode 100644
+index 0000000..e69de29
+diff --git a/index.html b/My Portfolio/index.html
+similarity index 100%
+rename from index.html
+rename to My Portfolio/index.html
+diff --git a/My Portfolio/pages b/My Portfolio/pages
+new file mode 100644
+index 0000000..e69de29
+
+commit 8fd701c758813cb83a8cb36eb63b2e60c6cac380
+Author: Shayne <shaynepag@gmail.com>
+Date:   Sat Oct 10 01:29:12 2026 +0000
+
+    made education html
+
+diff --git a/education.html b/education.html
+new file mode 100644
+index 0000000..ca4ce1c
+--- /dev/null
++++ b/education.html
+@@ -0,0 +1,52 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++<meta charset="UTF-8">
++<title>Education | My Profile</title>
++</head>
++<body>
++<header>
++<h1>Your Name</h1>
++</header>
++<nav>
++<a href="index.html">HOME</a> |
++<a href="about.html">ABOUT</a> |
++<a href="education.html">EDUCATION</a> |
++<a href="skills.html">SKILLS</a> |
++<a href="contact.html">CONTACT</a>
++</nav>
++<hr>
++<main>
++<section>
++<h2>Educational Background</h2>
++<article>
++<h3>College / University</h3>
++<p>University of the Cordilleras, Information Technology, 2nd-Year</p>
++</article>
++<article>
++<h3>Senior High School</h3>
++<p>University of Baguio, STEM, 2 Years</p>
++
++<h3>Junior High School</h3>
++<p>Star Colleges Incorporation, 4 Years</p>
++
++<h3>Elementary School</h3>
++<p>Star Colleges Incorporation, 6 Years</p>
++
++</article>
++<article>
++<h3>Video Introduction</h3>
++<video controls width="400">
++<source src="intro.mp4" type="video/mp4">
++Your browser does not support video.
++</video>
++</article>
++</section>
++</main>
++<hr>
++<footer>
++<p>&copy; 2026 Pago, Shayne Earlle |
++<a href="https://github.com/ShabibiEarlle target="_blank">GitHub</a></p>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+
+commit 87228aa476218240739996003db9aa363e5980a3
+Merge: 4e9c7b3 7a772e4
+Author: Shayne <shaynepag@gmail.com>
+Date:   Sat Oct 10 01:14:52 2026 +0000
+
+    resolved formatting and index problem
+
+commit 4e9c7b36d3de13c8c7a0addd3c59812a4f81ac80
+Author: Shayne <shaynepag@gmail.com>
+Date:   Fri Oct 9 23:10:31 2026 +0000
+
+    fixed contact and schedule
+
+diff --git a/HTML b/HTML
+deleted file mode 100644
+index f69af31..0000000
+--- a/HTML
++++ /dev/null
+@@ -1,37 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>My Personal Page</title>
+-</head>
+-
+-<body>
+-
+-    <h1>================================</h1>
+-    <h1>MY PERSONAL PAGE</h1>
+-    <h1>================================</h1>
+- 
+-    <p>Pago, Shayne Earlle N.</p>
+-
+-    <p>Bachelor of Science in Information Technology</p>
+-
+-
+-
+-    <h2>About Me</h2>
+-    <p>
+-        I am a student interested in web development and learning anything I can in the IT field.
+-    </p>
+-
+-    <hr>
+-
+-    <h2>My Hobbies</h2>
+-    <p>
+-        I enjoy reading literature, going out to movies, and walking
+-        through parks on a sunny day.
+-    </p>
+-
+-    <p>=============================</p>
+-
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/contact.html b/contact.html
+index 81f1971..db267cf 100644
+--- a/contact.html
++++ b/contact.html
+@@ -42,10 +42,8 @@
+ </main>
+ <hr>
+ <footer>
+-  <p>&copy; 2026 Your Name |
+-  <a href="https://developer.mozilla.org" target="_blank">MDN</a> |
+-  <a href="https://www.w3schools.com" target="_blank">W3Schools</a> |
+-  <a href="https://github.com" target="_blank">GitHub</a></p>
++  <p>&copy; 2026 Shayne Pago |
++  <a href="https://github.com/ShabibiEarlle" target="_blank">GitHub</a></p>
+ </footer>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/schedule.html b/schedule.html
+index cfd6169..b1c918b 100644
+--- a/schedule.html
++++ b/schedule.html
+@@ -20,16 +20,16 @@
+ 
+     <tr>
+       <td rowspan="3">Monday</td>
+-      <td>8:00 AM</td>
++      <td>8:50 AM</td>
+       <td>Web Development</td>
+       <td>LAB 1</td>
+-      <td>Instructor A</td>
++      <td>Sir Prim</td>
+     </tr>
+     <tr>
+       <td>10:00 AM</td>
+       <td>Programming</td>
+       <td>LAB 3</td>
+-      <td>Instructor B</td>
++      <td>Sir Tung Tung</td>
+     </tr>
+ 
+     <tr>
+@@ -38,27 +38,27 @@
+ 
+     <tr>
+       <td rowspan="3">Tuesday</td>
+-      <td>10:00 AM</td>
++      <td>11:30 AM</td>
+       <td>Database</td>
+       <td>LAB 2</td>
+-      <td>Instructor C</td>
++      <td>Ma'am Anna</td>
+     </tr>
+     <tr>
+       <td colspan="4">12:00 PM - Lunch Break</td>
+     </tr>
+     <tr>
+       <td>1:00 PM</td>
+-      <td>Networking</td>
++      <td>Database</td>
+       <td>Room 204</td>
+-      <td>Instructor D</td>
++      <td>Ma'am Anna</td>
+     </tr>
+ 
+     <tr>
+       <td>Wednesday</td>
+-      <td>9:00 AM</td>
++      <td>8:50 AM</td>
+       <td>Web Development</td>
+       <td>LAB 1</td>
+-      <td>Instructor A</td>
++      <td>Sir Prim</td>
+     </tr>
+ 
+     <tr>
+@@ -66,12 +66,12 @@
+       <td>1:00 PM</td>
+       <td>Database</td>
+       <td>LAB 2</td>
+-      <td>Instructor C</td>
++      <td>Ma'am Anna</td>
+     </tr>
+ 
+     <tr>
+       <td>Friday</td>
+-      <td colspan="4">Consultation and Project Work</td>
++      <td colspan="4">ODL</td>
+     </tr>
+   </table>
+ 
+
+commit 1bacd7d1643659685ca6fd46b2d9b9b6b0f438ba
+Author: Shayne <shaynepag@gmail.com>
+Date:   Fri Oct 9 22:59:07 2026 +0000
+
+    Completed Emmet Laboratory Activity
+
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+index 4c95f07..d773b64 100644
+--- a/emmet-laboratory/portfolio.html
++++ b/emmet-laboratory/portfolio.html
+@@ -3,13 +3,90 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Portfolio</title>
++    <title>My Portfolio</title>
+ </head>
+ <body>
+-    <h1>Pago, Shayne Earlle N.</h1>
+-    <p>My name is Shayne and I am a 2nd Year Student studying in University of the Cordilleras. I have a deep passion for tech and would love to learn anything about introduction</p>
+-    <hr>
+ 
+-    <h1></h1>
++    <header id="home">
++        <h1>Pago, Shayne Earlle N.</h1>
++        <p>Aspiring web developer doing my best.</p>
++        <nav>
++            <ul>
++                <li><a href="#home">Home</a></li>
++                <li><a href="#about">About</a></li>
++                <li><a href="#skills">Skills</a></li>
++                <li><a href="#projects">Projects</a></li>
++                <li><a href="#contact">Contact</a></li>
++            </ul>
++        </nav>
++    </header>
++
++    <main>
++
++        <section id="about">
++            <h2>About Me</h2>
++            <img src="mee.jpg" alt="Profile Photo" width="200">
++            <p>I'm a student learning web development. I enjoy turning ideas into working pages and I'm currently focused on HTML, CSS, JavaScript, and databases.</p>
++        </section>
++
++        <section id="skills">
++            <h2>Skills</h2>
++            <ul>
++                <li>HTML</li>
++                <li>CSS</li>
++                <li>Java</li>
++                <li>MySQL</li>
++                <li>Git</li>
++            </ul>
++        </section>
++
++        <!--DISCLAIMER! I dont have any real projects-->
++        <section id="projects">
++            <h2>Projects</h2>
++
++            <article class="card">
++                <h3>Personal Profile Page</h3>
++                <p>A semantic HTML page introducing myself, built to practice headings, lists, and links.</p>
++                <a href="https://github.com/ShabibiEarlle/profile-page">View project</a>
++            </article>
++
++            <article class="card">
++                <h3>Student Registration Form</h3>
++                <p>A form with text, email, password, and radio inputs, each paired with an accessible label.</p>
++                <a href="https://github.com/ShabibiEarlle/registration-form">View project</a>
++            </article>
++
++            <article class="card">
++                <h3>Simple Blog Layout</h3>
++                <p>A multi-section layout using header, nav, main, article, and footer elements.</p>
++                <a href="https://github.com/ShabibiEarlle/blog-layout">View project</a>
++            </article>
++        </section>
++
++        <section id="contact">
++            <h2>Contact</h2>
++            <form action="#" method="post">
++                <label for="name">Name</label>
++                <input type="text" id="name" name="name" placeholder="Enter your name">
++
++                <label for="email">Email</label>
++                <input type="email" id="email" name="email" placeholder="Enter your email">
++
++                <label for="subject">Subject</label>
++                <input type="text" id="subject" name="subject" placeholder="What is this about?">
++
++                <label for="message">Message</label>
++                <textarea id="message" name="message" cols="30" rows="5" placeholder="Write your message"></textarea>
++
++                <input type="submit" value="Send message">
++            </form>
++        </section>
++
++    </main>
++
++    <footer>
++        <p>&copy; 2026 - Pago, Shayne Earlle N.</p>
++    </footer>
++
+ </body>
+ </html>
+\ No newline at end of file
+
+commit bb9576154abc2bfe4e67ef6e6e98df6060b05125
+Author: Shayne <shaynepag@gmail.com>
+Date:   Fri Oct 9 22:48:00 2026 +0000
+
+    fixed majority of the portfolio committed
+
+diff --git a/README.md b/README.md
+deleted file mode 100644
+index b84f3f0..0000000
+--- a/README.md
++++ /dev/null
+@@ -1,2 +0,0 @@
+-# WebTech
+-CIT14
+diff --git a/about.html b/about.html
+index e69de29..c555afb 100644
+--- a/about.html
++++ b/about.html
+@@ -0,0 +1,59 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <title>About | My Profile</title>
++</head>
++<body>
++<header>
++  <h1>Your Name</h1>
++</header>
++<nav>
++  <a href="index.html">HOME</a> |
++  <a href="about.html">ABOUT</a> |
++  <a href="education.html">EDUCATION</a> |
++  <a href="skills.html">SKILLS</a> |
++  <a href="contact.html">CONTACT</a>
++</nav>
++<hr>
++<main>
++  <section>
++    <h2>About Me</h2>
++    <article>
++      <h3>Introduction</h3>
++      <p>I am Shayne, born and raised in Benguet with a deep passion for technology. Currently 18 years old and enrolled in the University of the Cordilleras.</p>
++      <img src="mee.jpg" alt="Me" width="300">
++    </article>
++    <article>
++      <h3>Career Goals</h3>
++      <ol>
++        <li>Learn HTML, CSS, and JavaScript</li>
++        <li>Build real projects</li>
++        <li>Become a web developer</li>
++      </ol>
++    </article>
++    <article>
++      <h3>Hobbies</h3>
++      <ul>
++        <li>Reading Literature</li>
++        <li>Watching Movies</li>
++        <li>Playing Billiards</li>
++      </ul>
++    </article>
++    <article>
++      <h3>Interests</h3>
++      <p>Anything Tech related and Movies.</p>
++      <audio controls>
++        <source src="song.mp3" type="audio/mpeg">
++        Your browser does not support audio.
++      </audio>
++    </article>
++  </section>
++</main>
++<hr>
++<footer>
++  <p>&copy; 2026 Shayne Pago |
++  <a href="https://github.com/ShabibiEarlle" target="_blank">GitHub</a></p>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/contact.html b/contact.html
+index e69de29..81f1971 100644
+--- a/contact.html
++++ b/contact.html
+@@ -0,0 +1,51 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <title>Contact | My Profile</title>
++</head>
++<body>
++<header>
++  <h1>Your Name</h1>
++</header>
++<nav>
++  <a href="index.html">HOME</a> |
++  <a href="about.html">ABOUT</a> |
++  <a href="education.html">EDUCATION</a> |
++  <a href="skills.html">SKILLS</a> |
++  <a href="contact.html">CONTACT</a>
++</nav>
++<hr>
++<main>
++  <section>
++    <h2>Contact Me</h2>
++    <form action="#" method="post">
++      <label for="name">Name:</label><br>
++      <input type="text" id="name" name="name" required minlength="2" placeholder="Your name"><br><br>
++
++      <label for="email">Email:</label><br>
++      <input type="email" id="email" name="email" required placeholder="you@example.com"><br><br>
++
++      <label for="subject">Subject:</label><br>
++      <input type="text" id="subject" name="subject" required maxlength="80"><br><br>
++
++      <label for="message">Message:</label><br>
++      <textarea id="message" name="message" rows="5" cols="40" required placeholder="Your message"></textarea><br><br>
++
++      <input type="submit" value="Submit">
++    </form>
++  </section>
++  <section>
++    <h3>Find Me Here</h3>
++    <iframe src="https://www.openstreetmap.org/export/embed.html" width="400" height="250" title="Map"></iframe>
++  </section>
++</main>
++<hr>
++<footer>
++  <p>&copy; 2026 Your Name |
++  <a href="https://developer.mozilla.org" target="_blank">MDN</a> |
++  <a href="https://www.w3schools.com" target="_blank">W3Schools</a> |
++  <a href="https://github.com" target="_blank">GitHub</a></p>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+index 45ebd87..ff6a243 100644
+--- a/emmet-laboratory/02-classes-ids.html
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -5,18 +5,21 @@
+     <meta name="viewport" content="width=, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+-<body>
+-    <p class="introduction">testing</p>
+-    <div id="container">container</div>
+-    <div class="card featured"></div>
+-    <section id="about" class="content-selection"></section>
+-
+-    <header><p class="site-header"></p></header>
+-    <nav><div id="main-nav"></div></nav>
+-    <main><p class="content"></p></main>
+-    <section><div id="about"></div></section>
+-    <footer><p class="site-footer"></p></footer>
+-
++<main>
++    <section id="about" class="content-section">
++        <h2>About Me</h2>
++        <p class="introduction">I'm a student learning to build websites from scratch.</p>
++        <article class="card featured">
++            <h3>First Project</h3>
++            <p>A personal profile page built with semantic HTML.</p>
++            <img src="images/profile.jpg" alt="Profile photo">
++        </article>
++    </section>
++    <section id="contact" class="content-section">
++        <h2>Contact</h2>
++        <p>Find me on <a href="https://www.google.com">Google</a>.</p>
++    </section>
++</main>
+ 
+ 
+     <ul>
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+index 77b496b..ab7bea9 100644
+--- a/emmet-laboratory/03-navigation.html
++++ b/emmet-laboratory/03-navigation.html
+@@ -23,16 +23,15 @@
+         <li>Menu 5</li>
+     </ul>
+ 
+-  <nav>
++<nav>
+     <ul>
+-        <li>Home</li>
+-        <li>About</li>
+-        <li>Portfolio</li>
+-        <li>Services</li>
+-        <li>Contact</li>
+-        <a href="">Menu 1</a>
++        <li><a href="#home">Home</a></li>
++        <li><a href="#about">About</a></li>
++        <li><a href="#projects">Projects</a></li>
++        <li><a href="#services">Services</a></li>
++        <li><a href="#contact">Contact</a></li>
+     </ul>
+-  </nav>
++</nav>
+ 
+     <nav>
+         <ul>
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+index ff422a1..2c01de1 100644
+--- a/emmet-laboratory/04-form.html
++++ b/emmet-laboratory/04-form.html
+@@ -1,8 +1,20 @@
+-<input type="Student ID" name="Shayne" id="2025">
+-<input type="email" name="email" id="213">
+-<input type="password" name="asd" id="123">
+-<input type="checkbox" name="oakds" id="765">
+-<input type="radio" name="radio" id="6767">
+-<input type="submit" value="200">
+-
+-input:Student
+\ No newline at end of file
++<form>
++    <label for="student-id">Student ID</label>
++    <input type="text" id="student-id" name="studentId" placeholder="Enter your student ID">
++
++    <label for="email">Email</label>
++    <input type="email" id="email" name="email" placeholder="Enter your email">
++
++    <label for="password">Password</label>
++    <input type="password" id="password" name="password">
++
++    <input type="checkbox" id="remember" name="remember">
++    <label for="remember">Remember me</label>
++
++    <input type="radio" id="student" name="role">
++    <label for="student">Student</label>
++    <input type="radio" id="teacher" name="role">
++    <label for="teacher">Teacher</label>
++
++    <input type="submit" value="Submit">
++</form>
+\ No newline at end of file
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+index 891457f..1cbc8c3 100644
+--- a/emmet-laboratory/05-semantic.html
++++ b/emmet-laboratory/05-semantic.html
+@@ -8,7 +8,8 @@
+ <body>
+ 
+     <header>
+-        <h1>Header</h1>
++        <h1>My Web Development Journey</h1>
++        <p>Learning HTML, CSS, and JavaScript.</p>
+     </header>
+     <nav>
+         <uv>
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..4c95f07
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Portfolio</title>
++</head>
++<body>
++    <h1>Pago, Shayne Earlle N.</h1>
++    <p>My name is Shayne and I am a 2nd Year Student studying in University of the Cordilleras. I have a deep passion for tech and would love to learn anything about introduction</p>
++    <hr>
++
++    <h1></h1>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/images.html b/images.html
+new file mode 100644
+index 0000000..c81fbb4
+--- /dev/null
++++ b/images.html
+@@ -0,0 +1,18 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <title>My Profile</title>
++</head>
++<body>
++  <section>
++    <img src="mee.jpg" alt="Profile picture of Your Name" width="200" height="200">
++    <h1>Pago, Shayne Earlle N.</h1>
++    <p>I am a 2nd-Year student learning web development. I enjoy learning new technologies and anything about coding.</p>
++  </section>
++</body>
++</html>
++
++<a href="https://www.wikipedia.org" target="_blank">
++  <img src="mee.jpg" alt="Click to open Wikipedia" width="300">
++</a>
+\ No newline at end of file
+diff --git a/mee.jpg b/mee.jpg
+new file mode 100644
+index 0000000..0683778
+Binary files /dev/null and b/mee.jpg differ
+diff --git a/multimedia.html b/multimedia.html
+new file mode 100644
+index 0000000..38fb4fa
+--- /dev/null
++++ b/multimedia.html
+@@ -0,0 +1,25 @@
++<!DOCTYPE html>
++<html lang="en">
++<head><meta charset="UTF-8"><title>Multimedia</title></head>
++<body>
++  <h1>Multimedia</h1>
++
++  <h2>Profile Pic</h2>
++  <img src="mee.jpg" alt="My photo" width="300">
++
++  <h2>Audio</h2>
++  <audio controls>
++    <source src="sound.mp3" type="audio/mpeg">
++    Your browser does not support audio.
++  </audio>
++
++  <h2>Video</h2>
++  <video controls width="400">
++    <source src="clip.mp4" type="video/mp4">
++    Your browser does not support video.
++  </video>
++
++  <h2>Embedded Content</h2>
++  <iframe src="https://www.openstreetmap.org/export/embed.html" width="400" height="300" title="Map"></iframe>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/registration.html b/registration.html
+new file mode 100644
+index 0000000..8ee817a
+--- /dev/null
++++ b/registration.html
+@@ -0,0 +1,34 @@
++<form action="#" method="post">
++  <label for="name">Name:</label>
++  <input type="text" id="name" name="name" placeholder="Your name" required minlength="2" maxlength="30"><br><br>
++
++  <label for="email">Email:</label>
++  <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
++
++  <label for="pw">Password:</label>
++  <input type="password" id="pw" name="pw" required minlength="8" maxlength="20"><br><br>
++
++  <label for="dob">Date of birth:</label>
++  <input type="date" id="dob" name="dob"><br><br>
++
++  Gender:
++  <input type="radio" id="m" name="gender" value="male"><label for="m">Male</label>
++  <input type="radio" id="f" name="gender" value="female"><label for="f">Female</label><br><br>
++
++  <input type="checkbox" id="agree" name="agree" required>
++  <label for="agree">I agree to the terms</label><br><br>
++
++  <label for="course">Course:</label>
++  <select id="course" name="course">
++    <option value="html">HTML</option>
++    <option value="js">JavaScript</option>
++    <option value="py">Python</option>
++  </select><br><br>
++
++  <label for="msg">Message:</label><br>
++  <textarea id="msg" name="msg" rows="4" cols="40" maxlength="200" placeholder="Type here..."></textarea><br><br>
++
++  <input type="submit" value="Submit">
++  <input type="reset" value="Reset">
++  <button type="button">Plain Button</button>
++</form>
+\ No newline at end of file
+diff --git a/schedule.html b/schedule.html
+new file mode 100644
+index 0000000..cfd6169
+--- /dev/null
++++ b/schedule.html
+@@ -0,0 +1,79 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <title>Lab Activity 6: Weekly Class Schedule</title>
++</head>
++<body>
++
++  <h1>Weekly Class Schedule</h1>
++
++  <table border="1" cellpadding="8" cellspacing="0">
++    <tr>
++      <th>Day</th>
++      <th>Time</th>
++      <th>Subject</th>
++      <th>Room</th>
++      <th>Instructor</th>
++    </tr>
++
++    <tr>
++      <td rowspan="3">Monday</td>
++      <td>8:00 AM</td>
++      <td>Web Development</td>
++      <td>LAB 1</td>
++      <td>Instructor A</td>
++    </tr>
++    <tr>
++      <td>10:00 AM</td>
++      <td>Programming</td>
++      <td>LAB 3</td>
++      <td>Instructor B</td>
++    </tr>
++
++    <tr>
++      <td colspan="4">12:00 PM - Lunch Break</td>
++    </tr>
++
++    <tr>
++      <td rowspan="3">Tuesday</td>
++      <td>10:00 AM</td>
++      <td>Database</td>
++      <td>LAB 2</td>
++      <td>Instructor C</td>
++    </tr>
++    <tr>
++      <td colspan="4">12:00 PM - Lunch Break</td>
++    </tr>
++    <tr>
++      <td>1:00 PM</td>
++      <td>Networking</td>
++      <td>Room 204</td>
++      <td>Instructor D</td>
++    </tr>
++
++    <tr>
++      <td>Wednesday</td>
++      <td>9:00 AM</td>
++      <td>Web Development</td>
++      <td>LAB 1</td>
++      <td>Instructor A</td>
++    </tr>
++
++    <tr>
++      <td>Thursday</td>
++      <td>1:00 PM</td>
++      <td>Database</td>
++      <td>LAB 2</td>
++      <td>Instructor C</td>
++    </tr>
++
++    <tr>
++      <td>Friday</td>
++      <td colspan="4">Consultation and Project Work</td>
++    </tr>
++  </table>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/semantic.html b/semantic.html
+new file mode 100644
+index 0000000..b8e0360
+--- /dev/null
++++ b/semantic.html
+@@ -0,0 +1,12 @@
++<body>
++  <header><h1>My Website</h1></header>
++  <nav><a href="#">Home</a> | <a href="#">About</a></nav>
++  <main>
++    <section>
++      <h2>Section</h2>
++      <article><h3>Article</h3><p>Article content.</p></article>
++    </section>
++    <aside><p>Side note or related links</p></aside>
++  </main>
++  <footer><p>&copy; 2026 My Website</p></footer>
++</body>
+\ No newline at end of file
+diff --git a/skills.html b/skills.html
+new file mode 100644
+index 0000000..b2aeab0
+--- /dev/null
++++ b/skills.html
+@@ -0,0 +1,44 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <title>Skills | My Profile</title>
++</head>
++<body>
++<header>
++  <h1>Pago, Shayne Earlle N.</h1>
++</header>
++<nav>
++  <a href="index.html">HOME</a> |
++  <a href="about.html">ABOUT</a> |
++  <a href="education.html">EDUCATION</a> |
++  <a href="skills.html">SKILLS</a> |
++  <a href="contact.html">CONTACT</a>
++</nav>
++<hr>
++<main>
++  <section>
++    <h2>My Skills</h2>
++    <table border="1" cellpadding="8">
++      <thead>
++        <tr>
++          <th>Skill</th>
++          <th>Level</th>
++          <th>Experience</th>
++        </tr>
++      </thead>
++      <tbody>
++        <tr><td>HTML</td><td>Beginner</td><td>1 month</td></tr>
++        <tr><td>JavaScript</td><td>Beginner</td><td>1 month</td></tr>
++        <tr><td>Python</td><td>Beginner</td><td>1 months</td></tr>
++      </tbody>
++    </table>
++  </section>
++</main>
++<hr>
++<footer>
++  <p>&copy; 2026 Shayne Pago |
++  <a href="https://github.com/ShabibiEarlle" target="_blank">GitHub</a></p>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+
+commit bbb8dd326e3f2f2d8ab604b6cd7b2a2012238e71
+Author: Shayne <shaynepag@gmail.com>
+Date:   Thu Oct 8 01:49:14 2026 +0000
+
+    fixed semantics, tested schedule, portfolio
+
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+index 4d15b5f..45ebd87 100644
+--- a/emmet-laboratory/02-classes-ids.html
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -1,4 +1,4 @@
+-<!DOCTYPE html>
++``<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+index e93fd15..891457f 100644
+--- a/emmet-laboratory/05-semantic.html
++++ b/emmet-laboratory/05-semantic.html
+@@ -12,20 +12,20 @@
+     </header>
+     <nav>
+         <uv>
+-            <li><a href="01-basic.html"></a></li>
+-            <li><a href="02-classes-ids.html"></a></li>
+-            <li><a href="03-navigation.html"></a></li>
+-            <li><a href="04-form.html"></a></li>
++            <li><a href="01-basic.html">Basic</a></li>
++            <li><a href="02-classes-ids.html">Classes</a></li>
++            <li><a href="03-navigation.html">Navigation</a></li>
++            <li><a href="04-form.html">Form</a></li>
+         </uv>
+     </nav>
+ 
+     <main>
+-        <section>
++        <section> Section
+             <article>Article One</article>
+         </section>
+     </main>
+ 
+-    <footer>
++    <footer> Footer
+         <p>Child of Footer</p>
+     </footer>
+ </body>
+
+commit 4d583a5ba382923693dcc5c8d79843f8d8743855
+Author: Shayne <shaynepag@gmail.com>
+Date:   Tue Oct 6 01:47:46 2026 +0000
+
+    tweaked classes and navigation
+
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..7b04ee6
+--- /dev/null
++++ b/emmet-laboratory/01-basic.html
+@@ -0,0 +1,21 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>Header 1</h1>
++    <h2>One</h2>
++    <h1>Two</h1>
++    <p>asda</p>
++    <p>test</p>
++    <p>test 2</p>
++    <div>Div</div>
++    <header>header 2</header>
++    <nav>nav</nav>
++    <main>main</main>
++    <footer>footerr</footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..4d15b5f
+--- /dev/null
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,70 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <p class="introduction">testing</p>
++    <div id="container">container</div>
++    <div class="card featured"></div>
++    <section id="about" class="content-selection"></section>
++
++    <header><p class="site-header"></p></header>
++    <nav><div id="main-nav"></div></nav>
++    <main><p class="content"></p></main>
++    <section><div id="about"></div></section>
++    <footer><p class="site-footer"></p></footer>
++
++
++
++    <ul>
++        <li>list</li>
++    </ul>
++
++    <nav>
++        <ul>
++            <li>testing</li>
++        </ul>
++    </nav>
++
++    <nav>
++        <ul>
++            <li>1</li>
++            <li>2</li>
++            <li>3</li>
++            <li>4</li>
++            <li>5</li>
++        </ul>
++    </nav>
++
++    <h1>header</h1>
++    <p>paragraph</p>
++
++    <h1>header1</h1>
++    <h2>header2</h2>
++    <p>paragraph 1</p>
++    <p>paragraph 2</p>
++
++    <li>1</li>
++    <li>2</li>
++    <li>3</li>
++    <li>4</li>
++    <li>5</li>
++    
++    <div>div 1</div>
++    <div>div 2</div>
++    <div>div 3</div>
++
++    <p>p1</p>
++    <p>p2</p>
++    <p>p3</p>
++
++    <h1>Web Technologies</h1>
++    <p>Welcome to my webpage.</p>
++
++    <h1>My Web Development Journey</h1>
++    <p>I am learning HTML, CSS, JavaScript, and web development.</p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..77b496b
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,55 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++    <ul>
++        <li class="item1">Home</li>
++        <li class="item2">About</li>
++        <li class="item3">Services</li>
++        <li class="item4">Projects</li>
++        <li class="item5">Contact</li>
++    </ul>
++
++    <ul>
++        <li>Menu 1</li>
++        <li>Menu 2</li>
++        <li>Menu 3</li>
++        <li>Menu 4</li>
++        <li>Menu 5</li>
++    </ul>
++
++  <nav>
++    <ul>
++        <li>Home</li>
++        <li>About</li>
++        <li>Portfolio</li>
++        <li>Services</li>
++        <li>Contact</li>
++        <a href="">Menu 1</a>
++    </ul>
++  </nav>
++
++    <nav>
++        <ul>
++            <li><a href="Home">Menu 1</a></li>
++            <li><a href="About">Menu 2</a></li>
++            <li><a href="Portfolio">Menu 3</a></li>
++            <li><a href="Services">Menu 4</a></li>
++            <li><a href="Contact">Menu 5</a></li>
++        </ul>
++    </nav>
++
++    <input type="text" placeholder="Enter y our name">
++
++    <input type="email" placeholder="Enter your email">
++
++    <img src="images/profile.jpg" alt="Profile Photo">
++
++    <a href="https://www.google.com">Google</a>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..ff422a1
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,8 @@
++<input type="Student ID" name="Shayne" id="2025">
++<input type="email" name="email" id="213">
++<input type="password" name="asd" id="123">
++<input type="checkbox" name="oakds" id="765">
++<input type="radio" name="radio" id="6767">
++<input type="submit" value="200">
++
++input:Student
+\ No newline at end of file
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..e93fd15
+--- /dev/null
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,32 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++    <header>
++        <h1>Header</h1>
++    </header>
++    <nav>
++        <uv>
++            <li><a href="01-basic.html"></a></li>
++            <li><a href="02-classes-ids.html"></a></li>
++            <li><a href="03-navigation.html"></a></li>
++            <li><a href="04-form.html"></a></li>
++        </uv>
++    </nav>
++
++    <main>
++        <section>
++            <article>Article One</article>
++        </section>
++    </main>
++
++    <footer>
++        <p>Child of Footer</p>
++    </footer>
++</body>
++</html>
+\ No newline at end of file
+
+commit c25dff8f1bc53852f1a8f98e2ee264ca1e66b5ad
+Author: Shayne <shaynepag@gmail.com>
+Date:   Sat Oct 3 01:58:41 2026 +0000
+
+    added 5 new html files
+
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/contact.html b/contact.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/links.html b/links.html
+new file mode 100644
+index 0000000..0d5e535
+--- /dev/null
++++ b/links.html
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++    <h1>
++        <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="contact.html">CONTACT</a>
++    </h1>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/lists.html b/lists.html
+index 77fcb8d..3713b51 100644
+--- a/lists.html
++++ b/lists.html
+@@ -2,18 +2,51 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+-    <meta name="viewport" content="width=<>, initial-scale=1.0">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+-    <p>Favorite Foods</p>
+-    <ul>Pizza</ul>
+-    <ul>Chicken</ul>
+-    <ul>Orange</ul>
+-    <ul>Jelly</ul>
+-    <ul>Dragon Meat</ul>
++    <ul>
++        <li>Ramen</li>
++        <li>Pizza</li>
++        <li>Carbonara</li>
++        <li>Fried Chicken</li>
++        <li>Chips</li>
++    </ul>
++
++    <hr>
++
++    <ol>
++        <li>JavaScript</li>
++        <li>Python</li>
++        <li>Java</li>
++        <li>PHP</li>
++        <li>C#</li>
++    </ol>
++
++    <hr>
++
++<ul>
++        <li>Computer Science
++            <ul>
++                <li>Programming
++                    <ul>
++                        <li>Java</li>
++                        <li>Python</li>
++                        <li>PHP</li>
++                    </ul>
++                </li>
++
++                <li>Web Development
++                    <ul>
++                        <li>HTML</li>
++                        <li>CSS</li>
++                        <li>JavaScript</li>
++                    </ul>
++                </li>
++            </ul>
++        </li>
++    </ul>
+     
+-    <p>Top 5 Programming Languages</p>
+-    <ol>Python</ol>
+ </body>
+ </html>
+\ No newline at end of file
+
+commit 07e2a0d605d1a7466005848c2786748d2b9c8316
+Author: Shayne <shaynepag@gmail.com>
+Date:   Sat Sep 26 02:05:38 2026 +0000
+
+    added lists and links
+
+diff --git a/Website.html b/Website.html
+deleted file mode 100644
+index a452c1e..0000000
+--- a/Website.html
++++ /dev/null
+@@ -1,28 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>My Personal Page</title>
+-</head>
+-
+-<body>
+-    <h1>=========================</h1>
+-    <h1>MY PERSONAL PAGE</h1>
+-    <h1>=========================</h1>
+-
+-    <h2>Pago, Shayne Earlle N.</h2>
+-
+-    <p>Bachelor of Science in Information Technology </p>
+-
+-    <p>About me</p>
+-    <hr>
+-    <p>I am a Shayne 18 years old, Born and raised in Benguet with a deep passion for technology and everything coding related.</p>
+-
+-    <p>My Hobbies</p>
+-    <hr>
+-    <p>I enjoy reading literature, going outside for walks, and playing billiards.</p>
+-
+-    <p>=======================================================</p>
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..52e0470
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1,56 @@
++<!DOCTYPE html>
++<html>
++<head>
++    <title>HTML Text Formatting</title>
++</head>
++<body>
++
++    <h1>HTML Text Formatting</h1>
++
++    <p>
++        <strong>HTML</strong> stands for
++        <em>HyperText Markup Language</em>.
++    </p>
++
++    <h2>Tag Explanations</h2>
++
++    <h3>&lt;b&gt; - Bold</h3>
++    <p>The b tag makes text <b>bold</b>.</p>
++
++    <h3>&lt;strong&gt; - Strong Importance</h3>
++    <p>The strong tag shows text that is <strong>very important</strong>.</p>
++
++    <h3>&lt;i&gt; - Italic</h3>
++    <p>The i tag makes text <i>italic</i>.</p>
++
++    <h3>&lt;em&gt; - Emphasis</h3>
++    <p>The em tag <em>emphasizes</em> text.</p>
++
++    <h3>&lt;u&gt; - Underline</h3>
++    <p>The u tag <u>underlines</u> text.</p>
++
++    <h3>&lt;mark&gt; - Highlight</h3>
++    <p>The mark tag <mark>highlights</mark> text.</p>
++
++    <h3>&lt;small&gt; - Small Text</h3>
++    <p>The small tag makes text <small>smaller</small>.</p>
++
++    <h3>&lt;del&gt; - Deleted Text</h3>
++    <p>The del tag shows removed text: The meeting is on <del>Monday</del>.</p>
++
++    <h3>&lt;ins&gt; - Inserted Text</h3>
++    <p>The ins tag shows added text: The meeting is on <ins>Friday</ins>.</p>
++
++    <h3>&lt;sub&gt; - Subscript</h3>
++    <p>The sub tag lowers text: CO<sub>2</sub></p>
++
++    <h3>&lt;sup&gt; - Superscript</h3>
++    <p>The sup tag raises text: 5<sup>2</sup></p>
++
++    <h2>Challenge</h2>
++
++    <p>H<sub>2</sub>O</p>
++    <p>E = mc<sup>2</sup></p>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML.html b/index.html
+similarity index 100%
+rename from HTML.html
+rename to index.html
+diff --git a/lists.html b/lists.html
+new file mode 100644
+index 0000000..77fcb8d
+--- /dev/null
++++ b/lists.html
+@@ -0,0 +1,19 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=<>, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <p>Favorite Foods</p>
++    <ul>Pizza</ul>
++    <ul>Chicken</ul>
++    <ul>Orange</ul>
++    <ul>Jelly</ul>
++    <ul>Dragon Meat</ul>
++    
++    <p>Top 5 Programming Languages</p>
++    <ol>Python</ol>
++</body>
++</html>
+\ No newline at end of file
+
+commit 7a772e45f4eafe6ad480935c00039b45f40fde36
+Author: M307 User <M307User@lab.uc-bcf.local>
+Date:   Sat Sep 19 09:53:07 2026 +0800
+
+    Finished the Lab Activity 2 and Properly defined every tag
+
+diff --git a/HTML b/HTML
+deleted file mode 100644
+index f69af31..0000000
+--- a/HTML
++++ /dev/null
+@@ -1,37 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>My Personal Page</title>
+-</head>
+-
+-<body>
+-
+-    <h1>================================</h1>
+-    <h1>MY PERSONAL PAGE</h1>
+-    <h1>================================</h1>
+- 
+-    <p>Pago, Shayne Earlle N.</p>
+-
+-    <p>Bachelor of Science in Information Technology</p>
+-
+-
+-
+-    <h2>About Me</h2>
+-    <p>
+-        I am a student interested in web development and learning anything I can in the IT field.
+-    </p>
+-
+-    <hr>
+-
+-    <h2>My Hobbies</h2>
+-    <p>
+-        I enjoy reading literature, going out to movies, and walking
+-        through parks on a sunny day.
+-    </p>
+-
+-    <p>=============================</p>
+-
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/HTML.html b/HTML.html
+deleted file mode 100644
+index ee35b46..0000000
+--- a/HTML.html
++++ /dev/null
+@@ -1,37 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>My Personal Page</title>
+-</head>
+-
+-<body>
+-
+-    <h1>================================</h1>
+-    <h1>MY PERSONAL PAGE</h1>
+-    <h1>================================</h1>
+-
+-    <h2>Pago, Shayne Earlle N.</h2>
+-    <p>Bachelor of Science in Information Technology</p>
+-
+-    <hr>
+-
+-    <h2>About Me</h2>
+-    <p>
+-        I am a student interested in web development and learning
+-        anything I can related to technology.
+-    </p>
+-
+-    <hr>
+-
+-    <h2>My Hobbies</h2>
+-    <p>
+-        I enjoy reading literature, going out to movies, and walking
+-        through parks on a sunny day.
+-    </p>
+-
+-    <p>=============================</p>
+-
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..1c7436e
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1,24 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <P><b>bold</b> makes the word BOLD but does not grant a deeper importance or urgency</P>
++    <p><strong>strong</strong> makes the word BOLD and defines it as stronger importance, serious and urgent.</p>
++    <p><i>Italics</i>i represents when a piece of text has a different semantic meaning than the surrounding text, but doesn't imply strong emphasis or importance</p>
++    <p><em>em</em> represents stress emphasis of its contents, changing the semantic meaning of the sentence based on where it is place</p>
++    <p><u>Underlined</u> represents the word in underlines but in newer definitions it has a more semantic meaning.</p>
++    <p><mark>Highlight</mark> the text for references or notation purposes.</p>
++    <p><small>Small</small> represents side comments, small prints, and legal text.</p>
++    <p><del>del</del> represents text that has been deleted or removed from a document, providing a semantic meaning for content edits.</p>
++    <p><ins>ins</ins> represents a range of text that has been inserted or added to a document and makes the text underlined.</p>
++    <p><sub>sub</sub> renders inline text slightly Below the normal text baseline and typically in a smaller font.</p>
++    <p><sup>sup</sup> similiar to sub it renders the text slightly ABOVE the normal text baseline and usually in a smaller font size.</p>
++
++    <p>E = mc<sup>2</sup></p>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/Website.html b/index.html
+similarity index 100%
+rename from Website.html
+rename to index.html
+
+commit b3782853ceb8972e6b8c3f02f6ff8c06365b6e2a
+Author: M307 User <M307User@lab.uc-bcf.local>
+Date:   Thu Sep 17 09:24:12 2026 +0800
+
+    Added HTML file
+
+diff --git a/HTML b/HTML
+index ee35b46..f69af31 100644
+--- a/HTML
++++ b/HTML
+@@ -11,16 +11,16 @@
+     <h1>================================</h1>
+     <h1>MY PERSONAL PAGE</h1>
+     <h1>================================</h1>
++ 
++    <p>Pago, Shayne Earlle N.</p>
+ 
+-    <h2>Pago, Shayne Earlle N.</h2>
+     <p>Bachelor of Science in Information Technology</p>
+ 
+-    <hr>
++
+ 
+     <h2>About Me</h2>
+     <p>
+-        I am a student interested in web development and learning
+-        anything I can related to technology.
++        I am a student interested in web development and learning anything I can in the IT field.
+     </p>
+ 
+     <hr>
+diff --git a/HTML.html b/HTML.html
+new file mode 100644
+index 0000000..ee35b46
+--- /dev/null
++++ b/HTML.html
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Personal Page</title>
++</head>
++
++<body>
++
++    <h1>================================</h1>
++    <h1>MY PERSONAL PAGE</h1>
++    <h1>================================</h1>
++
++    <h2>Pago, Shayne Earlle N.</h2>
++    <p>Bachelor of Science in Information Technology</p>
++
++    <hr>
++
++    <h2>About Me</h2>
++    <p>
++        I am a student interested in web development and learning
++        anything I can related to technology.
++    </p>
++
++    <hr>
++
++    <h2>My Hobbies</h2>
++    <p>
++        I enjoy reading literature, going out to movies, and walking
++        through parks on a sunny day.
++    </p>
++
++    <p>=============================</p>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/Website.html b/Website.html
+new file mode 100644
+index 0000000..a452c1e
+--- /dev/null
++++ b/Website.html
+@@ -0,0 +1,28 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Personal Page</title>
++</head>
++
++<body>
++    <h1>=========================</h1>
++    <h1>MY PERSONAL PAGE</h1>
++    <h1>=========================</h1>
++
++    <h2>Pago, Shayne Earlle N.</h2>
++
++    <p>Bachelor of Science in Information Technology </p>
++
++    <p>About me</p>
++    <hr>
++    <p>I am a Shayne 18 years old, Born and raised in Benguet with a deep passion for technology and everything coding related.</p>
++
++    <p>My Hobbies</p>
++    <hr>
++    <p>I enjoy reading literature, going outside for walks, and playing billiards.</p>
++
++    <p>=======================================================</p>
++</body>
++</html>
+\ No newline at end of file
+
+commit 8f0145677ead3e6ac149ffdc7709618469a6c125
+Author: M307 User <M307User@lab.uc-bcf.local>
+Date:   Tue Sep 15 09:57:37 2026 +0800
+
+    Added html.
+
+diff --git a/HTML b/HTML
+new file mode 100644
+index 0000000..ee35b46
+--- /dev/null
++++ b/HTML
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Personal Page</title>
++</head>
++
++<body>
++
++    <h1>================================</h1>
++    <h1>MY PERSONAL PAGE</h1>
++    <h1>================================</h1>
++
++    <h2>Pago, Shayne Earlle N.</h2>
++    <p>Bachelor of Science in Information Technology</p>
++
++    <hr>
++
++    <h2>About Me</h2>
++    <p>
++        I am a student interested in web development and learning
++        anything I can related to technology.
++    </p>
++
++    <hr>
++
++    <h2>My Hobbies</h2>
++    <p>
++        I enjoy reading literature, going out to movies, and walking
++        through parks on a sunny day.
++    </p>
++
++    <p>=============================</p>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit a23726bc612eb6a57de3b5b6c583bb01fc5a55f9
+Author: Shayne <shaynepag@gmail.com>
+Date:   Sat Sep 5 09:08:16 2026 +0800
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..b84f3f0
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++# WebTech
++CIT14
+commit 52998769971c8268054e5e7ed771a91d58c8d088
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-10-10 01:44:18 +0000
+Commit:     Shayne <shaynepag@gmail.com>
+CommitDate: 2026-10-10 01:44:18 +0000
+
+    images, pages
+
+diff --git a/about.html b/My Portfolio/about.html
+similarity index 100%
+rename from about.html
+rename to My Portfolio/about.html
+diff --git a/contact.html b/My Portfolio/contact.html
+similarity index 100%
+rename from contact.html
+rename to My Portfolio/contact.html
+diff --git a/My Portfolio/images b/My Portfolio/images
+new file mode 100644
+index 0000000..e69de29
+diff --git a/index.html b/My Portfolio/index.html
+similarity index 100%
+rename from index.html
+rename to My Portfolio/index.html
+diff --git a/My Portfolio/pages b/My Portfolio/pages
+new file mode 100644
+index 0000000..e69de29
+
+commit 8fd701c758813cb83a8cb36eb63b2e60c6cac380
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-10-10 01:29:12 +0000
+Commit:     Shayne <shaynepag@gmail.com>
+CommitDate: 2026-10-10 01:29:12 +0000
+
+    made education html
+
+diff --git a/education.html b/education.html
+new file mode 100644
+index 0000000..ca4ce1c
+--- /dev/null
++++ b/education.html
+@@ -0,0 +1,52 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++<meta charset="UTF-8">
++<title>Education | My Profile</title>
++</head>
++<body>
++<header>
++<h1>Your Name</h1>
++</header>
++<nav>
++<a href="index.html">HOME</a> |
++<a href="about.html">ABOUT</a> |
++<a href="education.html">EDUCATION</a> |
++<a href="skills.html">SKILLS</a> |
++<a href="contact.html">CONTACT</a>
++</nav>
++<hr>
++<main>
++<section>
++<h2>Educational Background</h2>
++<article>
++<h3>College / University</h3>
++<p>University of the Cordilleras, Information Technology, 2nd-Year</p>
++</article>
++<article>
++<h3>Senior High School</h3>
++<p>University of Baguio, STEM, 2 Years</p>
++
++<h3>Junior High School</h3>
++<p>Star Colleges Incorporation, 4 Years</p>
++
++<h3>Elementary School</h3>
++<p>Star Colleges Incorporation, 6 Years</p>
++
++</article>
++<article>
++<h3>Video Introduction</h3>
++<video controls width="400">
++<source src="intro.mp4" type="video/mp4">
++Your browser does not support video.
++</video>
++</article>
++</section>
++</main>
++<hr>
++<footer>
++<p>&copy; 2026 Pago, Shayne Earlle |
++<a href="https://github.com/ShabibiEarlle target="_blank">GitHub</a></p>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+
+commit 87228aa476218240739996003db9aa363e5980a3
+Merge: 4e9c7b3 7a772e4
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-10-10 01:14:52 +0000
+Commit:     Shayne <shaynepag@gmail.com>
+CommitDate: 2026-10-10 01:14:52 +0000
+
+    resolved formatting and index problem
+
+commit 4e9c7b36d3de13c8c7a0addd3c59812a4f81ac80
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-10-09 23:10:31 +0000
+Commit:     Shayne <shaynepag@gmail.com>
+CommitDate: 2026-10-09 23:10:31 +0000
+
+    fixed contact and schedule
+
+diff --git a/HTML b/HTML
+deleted file mode 100644
+index f69af31..0000000
+--- a/HTML
++++ /dev/null
+@@ -1,37 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>My Personal Page</title>
+-</head>
+-
+-<body>
+-
+-    <h1>================================</h1>
+-    <h1>MY PERSONAL PAGE</h1>
+-    <h1>================================</h1>
+- 
+-    <p>Pago, Shayne Earlle N.</p>
+-
+-    <p>Bachelor of Science in Information Technology</p>
+-
+-
+-
+-    <h2>About Me</h2>
+-    <p>
+-        I am a student interested in web development and learning anything I can in the IT field.
+-    </p>
+-
+-    <hr>
+-
+-    <h2>My Hobbies</h2>
+-    <p>
+-        I enjoy reading literature, going out to movies, and walking
+-        through parks on a sunny day.
+-    </p>
+-
+-    <p>=============================</p>
+-
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/contact.html b/contact.html
+index 81f1971..db267cf 100644
+--- a/contact.html
++++ b/contact.html
+@@ -42,10 +42,8 @@
+ </main>
+ <hr>
+ <footer>
+-  <p>&copy; 2026 Your Name |
+-  <a href="https://developer.mozilla.org" target="_blank">MDN</a> |
+-  <a href="https://www.w3schools.com" target="_blank">W3Schools</a> |
+-  <a href="https://github.com" target="_blank">GitHub</a></p>
++  <p>&copy; 2026 Shayne Pago |
++  <a href="https://github.com/ShabibiEarlle" target="_blank">GitHub</a></p>
+ </footer>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/schedule.html b/schedule.html
+index cfd6169..b1c918b 100644
+--- a/schedule.html
++++ b/schedule.html
+@@ -20,16 +20,16 @@
+ 
+     <tr>
+       <td rowspan="3">Monday</td>
+-      <td>8:00 AM</td>
++      <td>8:50 AM</td>
+       <td>Web Development</td>
+       <td>LAB 1</td>
+-      <td>Instructor A</td>
++      <td>Sir Prim</td>
+     </tr>
+     <tr>
+       <td>10:00 AM</td>
+       <td>Programming</td>
+       <td>LAB 3</td>
+-      <td>Instructor B</td>
++      <td>Sir Tung Tung</td>
+     </tr>
+ 
+     <tr>
+@@ -38,27 +38,27 @@
+ 
+     <tr>
+       <td rowspan="3">Tuesday</td>
+-      <td>10:00 AM</td>
++      <td>11:30 AM</td>
+       <td>Database</td>
+       <td>LAB 2</td>
+-      <td>Instructor C</td>
++      <td>Ma'am Anna</td>
+     </tr>
+     <tr>
+       <td colspan="4">12:00 PM - Lunch Break</td>
+     </tr>
+     <tr>
+       <td>1:00 PM</td>
+-      <td>Networking</td>
++      <td>Database</td>
+       <td>Room 204</td>
+-      <td>Instructor D</td>
++      <td>Ma'am Anna</td>
+     </tr>
+ 
+     <tr>
+       <td>Wednesday</td>
+-      <td>9:00 AM</td>
++      <td>8:50 AM</td>
+       <td>Web Development</td>
+       <td>LAB 1</td>
+-      <td>Instructor A</td>
++      <td>Sir Prim</td>
+     </tr>
+ 
+     <tr>
+@@ -66,12 +66,12 @@
+       <td>1:00 PM</td>
+       <td>Database</td>
+       <td>LAB 2</td>
+-      <td>Instructor C</td>
++      <td>Ma'am Anna</td>
+     </tr>
+ 
+     <tr>
+       <td>Friday</td>
+-      <td colspan="4">Consultation and Project Work</td>
++      <td colspan="4">ODL</td>
+     </tr>
+   </table>
+ 
+
+commit 1bacd7d1643659685ca6fd46b2d9b9b6b0f438ba
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-10-09 22:59:07 +0000
+Commit:     Shayne <shaynepag@gmail.com>
+CommitDate: 2026-10-09 22:59:07 +0000
+
+    Completed Emmet Laboratory Activity
+
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+index 4c95f07..d773b64 100644
+--- a/emmet-laboratory/portfolio.html
++++ b/emmet-laboratory/portfolio.html
+@@ -3,13 +3,90 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Portfolio</title>
++    <title>My Portfolio</title>
+ </head>
+ <body>
+-    <h1>Pago, Shayne Earlle N.</h1>
+-    <p>My name is Shayne and I am a 2nd Year Student studying in University of the Cordilleras. I have a deep passion for tech and would love to learn anything about introduction</p>
+-    <hr>
+ 
+-    <h1></h1>
++    <header id="home">
++        <h1>Pago, Shayne Earlle N.</h1>
++        <p>Aspiring web developer doing my best.</p>
++        <nav>
++            <ul>
++                <li><a href="#home">Home</a></li>
++                <li><a href="#about">About</a></li>
++                <li><a href="#skills">Skills</a></li>
++                <li><a href="#projects">Projects</a></li>
++                <li><a href="#contact">Contact</a></li>
++            </ul>
++        </nav>
++    </header>
++
++    <main>
++
++        <section id="about">
++            <h2>About Me</h2>
++            <img src="mee.jpg" alt="Profile Photo" width="200">
++            <p>I'm a student learning web development. I enjoy turning ideas into working pages and I'm currently focused on HTML, CSS, JavaScript, and databases.</p>
++        </section>
++
++        <section id="skills">
++            <h2>Skills</h2>
++            <ul>
++                <li>HTML</li>
++                <li>CSS</li>
++                <li>Java</li>
++                <li>MySQL</li>
++                <li>Git</li>
++            </ul>
++        </section>
++
++        <!--DISCLAIMER! I dont have any real projects-->
++        <section id="projects">
++            <h2>Projects</h2>
++
++            <article class="card">
++                <h3>Personal Profile Page</h3>
++                <p>A semantic HTML page introducing myself, built to practice headings, lists, and links.</p>
++                <a href="https://github.com/ShabibiEarlle/profile-page">View project</a>
++            </article>
++
++            <article class="card">
++                <h3>Student Registration Form</h3>
++                <p>A form with text, email, password, and radio inputs, each paired with an accessible label.</p>
++                <a href="https://github.com/ShabibiEarlle/registration-form">View project</a>
++            </article>
++
++            <article class="card">
++                <h3>Simple Blog Layout</h3>
++                <p>A multi-section layout using header, nav, main, article, and footer elements.</p>
++                <a href="https://github.com/ShabibiEarlle/blog-layout">View project</a>
++            </article>
++        </section>
++
++        <section id="contact">
++            <h2>Contact</h2>
++            <form action="#" method="post">
++                <label for="name">Name</label>
++                <input type="text" id="name" name="name" placeholder="Enter your name">
++
++                <label for="email">Email</label>
++                <input type="email" id="email" name="email" placeholder="Enter your email">
++
++                <label for="subject">Subject</label>
++                <input type="text" id="subject" name="subject" placeholder="What is this about?">
++
++                <label for="message">Message</label>
++                <textarea id="message" name="message" cols="30" rows="5" placeholder="Write your message"></textarea>
++
++                <input type="submit" value="Send message">
++            </form>
++        </section>
++
++    </main>
++
++    <footer>
++        <p>&copy; 2026 - Pago, Shayne Earlle N.</p>
++    </footer>
++
+ </body>
+ </html>
+\ No newline at end of file
+
+commit bb9576154abc2bfe4e67ef6e6e98df6060b05125
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-10-09 22:48:00 +0000
+Commit:     Shayne <shaynepag@gmail.com>
+CommitDate: 2026-10-09 22:48:00 +0000
+
+    fixed majority of the portfolio committed
+
+diff --git a/README.md b/README.md
+deleted file mode 100644
+index b84f3f0..0000000
+--- a/README.md
++++ /dev/null
+@@ -1,2 +0,0 @@
+-# WebTech
+-CIT14
+diff --git a/about.html b/about.html
+index e69de29..c555afb 100644
+--- a/about.html
++++ b/about.html
+@@ -0,0 +1,59 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <title>About | My Profile</title>
++</head>
++<body>
++<header>
++  <h1>Your Name</h1>
++</header>
++<nav>
++  <a href="index.html">HOME</a> |
++  <a href="about.html">ABOUT</a> |
++  <a href="education.html">EDUCATION</a> |
++  <a href="skills.html">SKILLS</a> |
++  <a href="contact.html">CONTACT</a>
++</nav>
++<hr>
++<main>
++  <section>
++    <h2>About Me</h2>
++    <article>
++      <h3>Introduction</h3>
++      <p>I am Shayne, born and raised in Benguet with a deep passion for technology. Currently 18 years old and enrolled in the University of the Cordilleras.</p>
++      <img src="mee.jpg" alt="Me" width="300">
++    </article>
++    <article>
++      <h3>Career Goals</h3>
++      <ol>
++        <li>Learn HTML, CSS, and JavaScript</li>
++        <li>Build real projects</li>
++        <li>Become a web developer</li>
++      </ol>
++    </article>
++    <article>
++      <h3>Hobbies</h3>
++      <ul>
++        <li>Reading Literature</li>
++        <li>Watching Movies</li>
++        <li>Playing Billiards</li>
++      </ul>
++    </article>
++    <article>
++      <h3>Interests</h3>
++      <p>Anything Tech related and Movies.</p>
++      <audio controls>
++        <source src="song.mp3" type="audio/mpeg">
++        Your browser does not support audio.
++      </audio>
++    </article>
++  </section>
++</main>
++<hr>
++<footer>
++  <p>&copy; 2026 Shayne Pago |
++  <a href="https://github.com/ShabibiEarlle" target="_blank">GitHub</a></p>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/contact.html b/contact.html
+index e69de29..81f1971 100644
+--- a/contact.html
++++ b/contact.html
+@@ -0,0 +1,51 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <title>Contact | My Profile</title>
++</head>
++<body>
++<header>
++  <h1>Your Name</h1>
++</header>
++<nav>
++  <a href="index.html">HOME</a> |
++  <a href="about.html">ABOUT</a> |
++  <a href="education.html">EDUCATION</a> |
++  <a href="skills.html">SKILLS</a> |
++  <a href="contact.html">CONTACT</a>
++</nav>
++<hr>
++<main>
++  <section>
++    <h2>Contact Me</h2>
++    <form action="#" method="post">
++      <label for="name">Name:</label><br>
++      <input type="text" id="name" name="name" required minlength="2" placeholder="Your name"><br><br>
++
++      <label for="email">Email:</label><br>
++      <input type="email" id="email" name="email" required placeholder="you@example.com"><br><br>
++
++      <label for="subject">Subject:</label><br>
++      <input type="text" id="subject" name="subject" required maxlength="80"><br><br>
++
++      <label for="message">Message:</label><br>
++      <textarea id="message" name="message" rows="5" cols="40" required placeholder="Your message"></textarea><br><br>
++
++      <input type="submit" value="Submit">
++    </form>
++  </section>
++  <section>
++    <h3>Find Me Here</h3>
++    <iframe src="https://www.openstreetmap.org/export/embed.html" width="400" height="250" title="Map"></iframe>
++  </section>
++</main>
++<hr>
++<footer>
++  <p>&copy; 2026 Your Name |
++  <a href="https://developer.mozilla.org" target="_blank">MDN</a> |
++  <a href="https://www.w3schools.com" target="_blank">W3Schools</a> |
++  <a href="https://github.com" target="_blank">GitHub</a></p>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+index 45ebd87..ff6a243 100644
+--- a/emmet-laboratory/02-classes-ids.html
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -5,18 +5,21 @@
+     <meta name="viewport" content="width=, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+-<body>
+-    <p class="introduction">testing</p>
+-    <div id="container">container</div>
+-    <div class="card featured"></div>
+-    <section id="about" class="content-selection"></section>
+-
+-    <header><p class="site-header"></p></header>
+-    <nav><div id="main-nav"></div></nav>
+-    <main><p class="content"></p></main>
+-    <section><div id="about"></div></section>
+-    <footer><p class="site-footer"></p></footer>
+-
++<main>
++    <section id="about" class="content-section">
++        <h2>About Me</h2>
++        <p class="introduction">I'm a student learning to build websites from scratch.</p>
++        <article class="card featured">
++            <h3>First Project</h3>
++            <p>A personal profile page built with semantic HTML.</p>
++            <img src="images/profile.jpg" alt="Profile photo">
++        </article>
++    </section>
++    <section id="contact" class="content-section">
++        <h2>Contact</h2>
++        <p>Find me on <a href="https://www.google.com">Google</a>.</p>
++    </section>
++</main>
+ 
+ 
+     <ul>
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+index 77b496b..ab7bea9 100644
+--- a/emmet-laboratory/03-navigation.html
++++ b/emmet-laboratory/03-navigation.html
+@@ -23,16 +23,15 @@
+         <li>Menu 5</li>
+     </ul>
+ 
+-  <nav>
++<nav>
+     <ul>
+-        <li>Home</li>
+-        <li>About</li>
+-        <li>Portfolio</li>
+-        <li>Services</li>
+-        <li>Contact</li>
+-        <a href="">Menu 1</a>
++        <li><a href="#home">Home</a></li>
++        <li><a href="#about">About</a></li>
++        <li><a href="#projects">Projects</a></li>
++        <li><a href="#services">Services</a></li>
++        <li><a href="#contact">Contact</a></li>
+     </ul>
+-  </nav>
++</nav>
+ 
+     <nav>
+         <ul>
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+index ff422a1..2c01de1 100644
+--- a/emmet-laboratory/04-form.html
++++ b/emmet-laboratory/04-form.html
+@@ -1,8 +1,20 @@
+-<input type="Student ID" name="Shayne" id="2025">
+-<input type="email" name="email" id="213">
+-<input type="password" name="asd" id="123">
+-<input type="checkbox" name="oakds" id="765">
+-<input type="radio" name="radio" id="6767">
+-<input type="submit" value="200">
+-
+-input:Student
+\ No newline at end of file
++<form>
++    <label for="student-id">Student ID</label>
++    <input type="text" id="student-id" name="studentId" placeholder="Enter your student ID">
++
++    <label for="email">Email</label>
++    <input type="email" id="email" name="email" placeholder="Enter your email">
++
++    <label for="password">Password</label>
++    <input type="password" id="password" name="password">
++
++    <input type="checkbox" id="remember" name="remember">
++    <label for="remember">Remember me</label>
++
++    <input type="radio" id="student" name="role">
++    <label for="student">Student</label>
++    <input type="radio" id="teacher" name="role">
++    <label for="teacher">Teacher</label>
++
++    <input type="submit" value="Submit">
++</form>
+\ No newline at end of file
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+index 891457f..1cbc8c3 100644
+--- a/emmet-laboratory/05-semantic.html
++++ b/emmet-laboratory/05-semantic.html
+@@ -8,7 +8,8 @@
+ <body>
+ 
+     <header>
+-        <h1>Header</h1>
++        <h1>My Web Development Journey</h1>
++        <p>Learning HTML, CSS, and JavaScript.</p>
+     </header>
+     <nav>
+         <uv>
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..4c95f07
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Portfolio</title>
++</head>
++<body>
++    <h1>Pago, Shayne Earlle N.</h1>
++    <p>My name is Shayne and I am a 2nd Year Student studying in University of the Cordilleras. I have a deep passion for tech and would love to learn anything about introduction</p>
++    <hr>
++
++    <h1></h1>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/images.html b/images.html
+new file mode 100644
+index 0000000..c81fbb4
+--- /dev/null
++++ b/images.html
+@@ -0,0 +1,18 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <title>My Profile</title>
++</head>
++<body>
++  <section>
++    <img src="mee.jpg" alt="Profile picture of Your Name" width="200" height="200">
++    <h1>Pago, Shayne Earlle N.</h1>
++    <p>I am a 2nd-Year student learning web development. I enjoy learning new technologies and anything about coding.</p>
++  </section>
++</body>
++</html>
++
++<a href="https://www.wikipedia.org" target="_blank">
++  <img src="mee.jpg" alt="Click to open Wikipedia" width="300">
++</a>
+\ No newline at end of file
+diff --git a/mee.jpg b/mee.jpg
+new file mode 100644
+index 0000000..0683778
+Binary files /dev/null and b/mee.jpg differ
+diff --git a/multimedia.html b/multimedia.html
+new file mode 100644
+index 0000000..38fb4fa
+--- /dev/null
++++ b/multimedia.html
+@@ -0,0 +1,25 @@
++<!DOCTYPE html>
++<html lang="en">
++<head><meta charset="UTF-8"><title>Multimedia</title></head>
++<body>
++  <h1>Multimedia</h1>
++
++  <h2>Profile Pic</h2>
++  <img src="mee.jpg" alt="My photo" width="300">
++
++  <h2>Audio</h2>
++  <audio controls>
++    <source src="sound.mp3" type="audio/mpeg">
++    Your browser does not support audio.
++  </audio>
++
++  <h2>Video</h2>
++  <video controls width="400">
++    <source src="clip.mp4" type="video/mp4">
++    Your browser does not support video.
++  </video>
++
++  <h2>Embedded Content</h2>
++  <iframe src="https://www.openstreetmap.org/export/embed.html" width="400" height="300" title="Map"></iframe>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/registration.html b/registration.html
+new file mode 100644
+index 0000000..8ee817a
+--- /dev/null
++++ b/registration.html
+@@ -0,0 +1,34 @@
++<form action="#" method="post">
++  <label for="name">Name:</label>
++  <input type="text" id="name" name="name" placeholder="Your name" required minlength="2" maxlength="30"><br><br>
++
++  <label for="email">Email:</label>
++  <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
++
++  <label for="pw">Password:</label>
++  <input type="password" id="pw" name="pw" required minlength="8" maxlength="20"><br><br>
++
++  <label for="dob">Date of birth:</label>
++  <input type="date" id="dob" name="dob"><br><br>
++
++  Gender:
++  <input type="radio" id="m" name="gender" value="male"><label for="m">Male</label>
++  <input type="radio" id="f" name="gender" value="female"><label for="f">Female</label><br><br>
++
++  <input type="checkbox" id="agree" name="agree" required>
++  <label for="agree">I agree to the terms</label><br><br>
++
++  <label for="course">Course:</label>
++  <select id="course" name="course">
++    <option value="html">HTML</option>
++    <option value="js">JavaScript</option>
++    <option value="py">Python</option>
++  </select><br><br>
++
++  <label for="msg">Message:</label><br>
++  <textarea id="msg" name="msg" rows="4" cols="40" maxlength="200" placeholder="Type here..."></textarea><br><br>
++
++  <input type="submit" value="Submit">
++  <input type="reset" value="Reset">
++  <button type="button">Plain Button</button>
++</form>
+\ No newline at end of file
+diff --git a/schedule.html b/schedule.html
+new file mode 100644
+index 0000000..cfd6169
+--- /dev/null
++++ b/schedule.html
+@@ -0,0 +1,79 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <title>Lab Activity 6: Weekly Class Schedule</title>
++</head>
++<body>
++
++  <h1>Weekly Class Schedule</h1>
++
++  <table border="1" cellpadding="8" cellspacing="0">
++    <tr>
++      <th>Day</th>
++      <th>Time</th>
++      <th>Subject</th>
++      <th>Room</th>
++      <th>Instructor</th>
++    </tr>
++
++    <tr>
++      <td rowspan="3">Monday</td>
++      <td>8:00 AM</td>
++      <td>Web Development</td>
++      <td>LAB 1</td>
++      <td>Instructor A</td>
++    </tr>
++    <tr>
++      <td>10:00 AM</td>
++      <td>Programming</td>
++      <td>LAB 3</td>
++      <td>Instructor B</td>
++    </tr>
++
++    <tr>
++      <td colspan="4">12:00 PM - Lunch Break</td>
++    </tr>
++
++    <tr>
++      <td rowspan="3">Tuesday</td>
++      <td>10:00 AM</td>
++      <td>Database</td>
++      <td>LAB 2</td>
++      <td>Instructor C</td>
++    </tr>
++    <tr>
++      <td colspan="4">12:00 PM - Lunch Break</td>
++    </tr>
++    <tr>
++      <td>1:00 PM</td>
++      <td>Networking</td>
++      <td>Room 204</td>
++      <td>Instructor D</td>
++    </tr>
++
++    <tr>
++      <td>Wednesday</td>
++      <td>9:00 AM</td>
++      <td>Web Development</td>
++      <td>LAB 1</td>
++      <td>Instructor A</td>
++    </tr>
++
++    <tr>
++      <td>Thursday</td>
++      <td>1:00 PM</td>
++      <td>Database</td>
++      <td>LAB 2</td>
++      <td>Instructor C</td>
++    </tr>
++
++    <tr>
++      <td>Friday</td>
++      <td colspan="4">Consultation and Project Work</td>
++    </tr>
++  </table>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/semantic.html b/semantic.html
+new file mode 100644
+index 0000000..b8e0360
+--- /dev/null
++++ b/semantic.html
+@@ -0,0 +1,12 @@
++<body>
++  <header><h1>My Website</h1></header>
++  <nav><a href="#">Home</a> | <a href="#">About</a></nav>
++  <main>
++    <section>
++      <h2>Section</h2>
++      <article><h3>Article</h3><p>Article content.</p></article>
++    </section>
++    <aside><p>Side note or related links</p></aside>
++  </main>
++  <footer><p>&copy; 2026 My Website</p></footer>
++</body>
+\ No newline at end of file
+diff --git a/skills.html b/skills.html
+new file mode 100644
+index 0000000..b2aeab0
+--- /dev/null
++++ b/skills.html
+@@ -0,0 +1,44 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <title>Skills | My Profile</title>
++</head>
++<body>
++<header>
++  <h1>Pago, Shayne Earlle N.</h1>
++</header>
++<nav>
++  <a href="index.html">HOME</a> |
++  <a href="about.html">ABOUT</a> |
++  <a href="education.html">EDUCATION</a> |
++  <a href="skills.html">SKILLS</a> |
++  <a href="contact.html">CONTACT</a>
++</nav>
++<hr>
++<main>
++  <section>
++    <h2>My Skills</h2>
++    <table border="1" cellpadding="8">
++      <thead>
++        <tr>
++          <th>Skill</th>
++          <th>Level</th>
++          <th>Experience</th>
++        </tr>
++      </thead>
++      <tbody>
++        <tr><td>HTML</td><td>Beginner</td><td>1 month</td></tr>
++        <tr><td>JavaScript</td><td>Beginner</td><td>1 month</td></tr>
++        <tr><td>Python</td><td>Beginner</td><td>1 months</td></tr>
++      </tbody>
++    </table>
++  </section>
++</main>
++<hr>
++<footer>
++  <p>&copy; 2026 Shayne Pago |
++  <a href="https://github.com/ShabibiEarlle" target="_blank">GitHub</a></p>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+
+commit bbb8dd326e3f2f2d8ab604b6cd7b2a2012238e71
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-10-08 01:49:14 +0000
+Commit:     Shayne <shaynepag@gmail.com>
+CommitDate: 2026-10-08 01:49:14 +0000
+
+    fixed semantics, tested schedule, portfolio
+
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+index 4d15b5f..45ebd87 100644
+--- a/emmet-laboratory/02-classes-ids.html
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -1,4 +1,4 @@
+-<!DOCTYPE html>
++``<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+index e93fd15..891457f 100644
+--- a/emmet-laboratory/05-semantic.html
++++ b/emmet-laboratory/05-semantic.html
+@@ -12,20 +12,20 @@
+     </header>
+     <nav>
+         <uv>
+-            <li><a href="01-basic.html"></a></li>
+-            <li><a href="02-classes-ids.html"></a></li>
+-            <li><a href="03-navigation.html"></a></li>
+-            <li><a href="04-form.html"></a></li>
++            <li><a href="01-basic.html">Basic</a></li>
++            <li><a href="02-classes-ids.html">Classes</a></li>
++            <li><a href="03-navigation.html">Navigation</a></li>
++            <li><a href="04-form.html">Form</a></li>
+         </uv>
+     </nav>
+ 
+     <main>
+-        <section>
++        <section> Section
+             <article>Article One</article>
+         </section>
+     </main>
+ 
+-    <footer>
++    <footer> Footer
+         <p>Child of Footer</p>
+     </footer>
+ </body>
+
+commit 4d583a5ba382923693dcc5c8d79843f8d8743855
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-10-06 01:47:46 +0000
+Commit:     Shayne <shaynepag@gmail.com>
+CommitDate: 2026-10-06 01:47:46 +0000
+
+    tweaked classes and navigation
+
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..7b04ee6
+--- /dev/null
++++ b/emmet-laboratory/01-basic.html
+@@ -0,0 +1,21 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>Header 1</h1>
++    <h2>One</h2>
++    <h1>Two</h1>
++    <p>asda</p>
++    <p>test</p>
++    <p>test 2</p>
++    <div>Div</div>
++    <header>header 2</header>
++    <nav>nav</nav>
++    <main>main</main>
++    <footer>footerr</footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..4d15b5f
+--- /dev/null
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,70 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <p class="introduction">testing</p>
++    <div id="container">container</div>
++    <div class="card featured"></div>
++    <section id="about" class="content-selection"></section>
++
++    <header><p class="site-header"></p></header>
++    <nav><div id="main-nav"></div></nav>
++    <main><p class="content"></p></main>
++    <section><div id="about"></div></section>
++    <footer><p class="site-footer"></p></footer>
++
++
++
++    <ul>
++        <li>list</li>
++    </ul>
++
++    <nav>
++        <ul>
++            <li>testing</li>
++        </ul>
++    </nav>
++
++    <nav>
++        <ul>
++            <li>1</li>
++            <li>2</li>
++            <li>3</li>
++            <li>4</li>
++            <li>5</li>
++        </ul>
++    </nav>
++
++    <h1>header</h1>
++    <p>paragraph</p>
++
++    <h1>header1</h1>
++    <h2>header2</h2>
++    <p>paragraph 1</p>
++    <p>paragraph 2</p>
++
++    <li>1</li>
++    <li>2</li>
++    <li>3</li>
++    <li>4</li>
++    <li>5</li>
++    
++    <div>div 1</div>
++    <div>div 2</div>
++    <div>div 3</div>
++
++    <p>p1</p>
++    <p>p2</p>
++    <p>p3</p>
++
++    <h1>Web Technologies</h1>
++    <p>Welcome to my webpage.</p>
++
++    <h1>My Web Development Journey</h1>
++    <p>I am learning HTML, CSS, JavaScript, and web development.</p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..77b496b
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,55 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++    <ul>
++        <li class="item1">Home</li>
++        <li class="item2">About</li>
++        <li class="item3">Services</li>
++        <li class="item4">Projects</li>
++        <li class="item5">Contact</li>
++    </ul>
++
++    <ul>
++        <li>Menu 1</li>
++        <li>Menu 2</li>
++        <li>Menu 3</li>
++        <li>Menu 4</li>
++        <li>Menu 5</li>
++    </ul>
++
++  <nav>
++    <ul>
++        <li>Home</li>
++        <li>About</li>
++        <li>Portfolio</li>
++        <li>Services</li>
++        <li>Contact</li>
++        <a href="">Menu 1</a>
++    </ul>
++  </nav>
++
++    <nav>
++        <ul>
++            <li><a href="Home">Menu 1</a></li>
++            <li><a href="About">Menu 2</a></li>
++            <li><a href="Portfolio">Menu 3</a></li>
++            <li><a href="Services">Menu 4</a></li>
++            <li><a href="Contact">Menu 5</a></li>
++        </ul>
++    </nav>
++
++    <input type="text" placeholder="Enter y our name">
++
++    <input type="email" placeholder="Enter your email">
++
++    <img src="images/profile.jpg" alt="Profile Photo">
++
++    <a href="https://www.google.com">Google</a>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..ff422a1
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,8 @@
++<input type="Student ID" name="Shayne" id="2025">
++<input type="email" name="email" id="213">
++<input type="password" name="asd" id="123">
++<input type="checkbox" name="oakds" id="765">
++<input type="radio" name="radio" id="6767">
++<input type="submit" value="200">
++
++input:Student
+\ No newline at end of file
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..e93fd15
+--- /dev/null
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,32 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++    <header>
++        <h1>Header</h1>
++    </header>
++    <nav>
++        <uv>
++            <li><a href="01-basic.html"></a></li>
++            <li><a href="02-classes-ids.html"></a></li>
++            <li><a href="03-navigation.html"></a></li>
++            <li><a href="04-form.html"></a></li>
++        </uv>
++    </nav>
++
++    <main>
++        <section>
++            <article>Article One</article>
++        </section>
++    </main>
++
++    <footer>
++        <p>Child of Footer</p>
++    </footer>
++</body>
++</html>
+\ No newline at end of file
+
+commit c25dff8f1bc53852f1a8f98e2ee264ca1e66b5ad
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-10-03 01:58:41 +0000
+Commit:     Shayne <shaynepag@gmail.com>
+CommitDate: 2026-10-03 01:58:41 +0000
+
+    added 5 new html files
+
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/contact.html b/contact.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/links.html b/links.html
+new file mode 100644
+index 0000000..0d5e535
+--- /dev/null
++++ b/links.html
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++    <h1>
++        <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="contact.html">CONTACT</a>
++    </h1>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/lists.html b/lists.html
+index 77fcb8d..3713b51 100644
+--- a/lists.html
++++ b/lists.html
+@@ -2,18 +2,51 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+-    <meta name="viewport" content="width=<>, initial-scale=1.0">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+-    <p>Favorite Foods</p>
+-    <ul>Pizza</ul>
+-    <ul>Chicken</ul>
+-    <ul>Orange</ul>
+-    <ul>Jelly</ul>
+-    <ul>Dragon Meat</ul>
++    <ul>
++        <li>Ramen</li>
++        <li>Pizza</li>
++        <li>Carbonara</li>
++        <li>Fried Chicken</li>
++        <li>Chips</li>
++    </ul>
++
++    <hr>
++
++    <ol>
++        <li>JavaScript</li>
++        <li>Python</li>
++        <li>Java</li>
++        <li>PHP</li>
++        <li>C#</li>
++    </ol>
++
++    <hr>
++
++<ul>
++        <li>Computer Science
++            <ul>
++                <li>Programming
++                    <ul>
++                        <li>Java</li>
++                        <li>Python</li>
++                        <li>PHP</li>
++                    </ul>
++                </li>
++
++                <li>Web Development
++                    <ul>
++                        <li>HTML</li>
++                        <li>CSS</li>
++                        <li>JavaScript</li>
++                    </ul>
++                </li>
++            </ul>
++        </li>
++    </ul>
+     
+-    <p>Top 5 Programming Languages</p>
+-    <ol>Python</ol>
+ </body>
+ </html>
+\ No newline at end of file
+
+commit 07e2a0d605d1a7466005848c2786748d2b9c8316
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-09-26 02:05:38 +0000
+Commit:     Shayne <shaynepag@gmail.com>
+CommitDate: 2026-09-26 02:05:38 +0000
+
+    added lists and links
+
+diff --git a/Website.html b/Website.html
+deleted file mode 100644
+index a452c1e..0000000
+--- a/Website.html
++++ /dev/null
+@@ -1,28 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>My Personal Page</title>
+-</head>
+-
+-<body>
+-    <h1>=========================</h1>
+-    <h1>MY PERSONAL PAGE</h1>
+-    <h1>=========================</h1>
+-
+-    <h2>Pago, Shayne Earlle N.</h2>
+-
+-    <p>Bachelor of Science in Information Technology </p>
+-
+-    <p>About me</p>
+-    <hr>
+-    <p>I am a Shayne 18 years old, Born and raised in Benguet with a deep passion for technology and everything coding related.</p>
+-
+-    <p>My Hobbies</p>
+-    <hr>
+-    <p>I enjoy reading literature, going outside for walks, and playing billiards.</p>
+-
+-    <p>=======================================================</p>
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..52e0470
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1,56 @@
++<!DOCTYPE html>
++<html>
++<head>
++    <title>HTML Text Formatting</title>
++</head>
++<body>
++
++    <h1>HTML Text Formatting</h1>
++
++    <p>
++        <strong>HTML</strong> stands for
++        <em>HyperText Markup Language</em>.
++    </p>
++
++    <h2>Tag Explanations</h2>
++
++    <h3>&lt;b&gt; - Bold</h3>
++    <p>The b tag makes text <b>bold</b>.</p>
++
++    <h3>&lt;strong&gt; - Strong Importance</h3>
++    <p>The strong tag shows text that is <strong>very important</strong>.</p>
++
++    <h3>&lt;i&gt; - Italic</h3>
++    <p>The i tag makes text <i>italic</i>.</p>
++
++    <h3>&lt;em&gt; - Emphasis</h3>
++    <p>The em tag <em>emphasizes</em> text.</p>
++
++    <h3>&lt;u&gt; - Underline</h3>
++    <p>The u tag <u>underlines</u> text.</p>
++
++    <h3>&lt;mark&gt; - Highlight</h3>
++    <p>The mark tag <mark>highlights</mark> text.</p>
++
++    <h3>&lt;small&gt; - Small Text</h3>
++    <p>The small tag makes text <small>smaller</small>.</p>
++
++    <h3>&lt;del&gt; - Deleted Text</h3>
++    <p>The del tag shows removed text: The meeting is on <del>Monday</del>.</p>
++
++    <h3>&lt;ins&gt; - Inserted Text</h3>
++    <p>The ins tag shows added text: The meeting is on <ins>Friday</ins>.</p>
++
++    <h3>&lt;sub&gt; - Subscript</h3>
++    <p>The sub tag lowers text: CO<sub>2</sub></p>
++
++    <h3>&lt;sup&gt; - Superscript</h3>
++    <p>The sup tag raises text: 5<sup>2</sup></p>
++
++    <h2>Challenge</h2>
++
++    <p>H<sub>2</sub>O</p>
++    <p>E = mc<sup>2</sup></p>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML.html b/index.html
+similarity index 100%
+rename from HTML.html
+rename to index.html
+diff --git a/lists.html b/lists.html
+new file mode 100644
+index 0000000..77fcb8d
+--- /dev/null
++++ b/lists.html
+@@ -0,0 +1,19 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=<>, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <p>Favorite Foods</p>
++    <ul>Pizza</ul>
++    <ul>Chicken</ul>
++    <ul>Orange</ul>
++    <ul>Jelly</ul>
++    <ul>Dragon Meat</ul>
++    
++    <p>Top 5 Programming Languages</p>
++    <ol>Python</ol>
++</body>
++</html>
+\ No newline at end of file
+
+commit 7a772e45f4eafe6ad480935c00039b45f40fde36
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-19 09:53:07 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-19 09:53:07 +0800
+
+    Finished the Lab Activity 2 and Properly defined every tag
+
+diff --git a/HTML b/HTML
+deleted file mode 100644
+index f69af31..0000000
+--- a/HTML
++++ /dev/null
+@@ -1,37 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>My Personal Page</title>
+-</head>
+-
+-<body>
+-
+-    <h1>================================</h1>
+-    <h1>MY PERSONAL PAGE</h1>
+-    <h1>================================</h1>
+- 
+-    <p>Pago, Shayne Earlle N.</p>
+-
+-    <p>Bachelor of Science in Information Technology</p>
+-
+-
+-
+-    <h2>About Me</h2>
+-    <p>
+-        I am a student interested in web development and learning anything I can in the IT field.
+-    </p>
+-
+-    <hr>
+-
+-    <h2>My Hobbies</h2>
+-    <p>
+-        I enjoy reading literature, going out to movies, and walking
+-        through parks on a sunny day.
+-    </p>
+-
+-    <p>=============================</p>
+-
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/HTML.html b/HTML.html
+deleted file mode 100644
+index ee35b46..0000000
+--- a/HTML.html
++++ /dev/null
+@@ -1,37 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>My Personal Page</title>
+-</head>
+-
+-<body>
+-
+-    <h1>================================</h1>
+-    <h1>MY PERSONAL PAGE</h1>
+-    <h1>================================</h1>
+-
+-    <h2>Pago, Shayne Earlle N.</h2>
+-    <p>Bachelor of Science in Information Technology</p>
+-
+-    <hr>
+-
+-    <h2>About Me</h2>
+-    <p>
+-        I am a student interested in web development and learning
+-        anything I can related to technology.
+-    </p>
+-
+-    <hr>
+-
+-    <h2>My Hobbies</h2>
+-    <p>
+-        I enjoy reading literature, going out to movies, and walking
+-        through parks on a sunny day.
+-    </p>
+-
+-    <p>=============================</p>
+-
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..1c7436e
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1,24 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <P><b>bold</b> makes the word BOLD but does not grant a deeper importance or urgency</P>
++    <p><strong>strong</strong> makes the word BOLD and defines it as stronger importance, serious and urgent.</p>
++    <p><i>Italics</i>i represents when a piece of text has a different semantic meaning than the surrounding text, but doesn't imply strong emphasis or importance</p>
++    <p><em>em</em> represents stress emphasis of its contents, changing the semantic meaning of the sentence based on where it is place</p>
++    <p><u>Underlined</u> represents the word in underlines but in newer definitions it has a more semantic meaning.</p>
++    <p><mark>Highlight</mark> the text for references or notation purposes.</p>
++    <p><small>Small</small> represents side comments, small prints, and legal text.</p>
++    <p><del>del</del> represents text that has been deleted or removed from a document, providing a semantic meaning for content edits.</p>
++    <p><ins>ins</ins> represents a range of text that has been inserted or added to a document and makes the text underlined.</p>
++    <p><sub>sub</sub> renders inline text slightly Below the normal text baseline and typically in a smaller font.</p>
++    <p><sup>sup</sup> similiar to sub it renders the text slightly ABOVE the normal text baseline and usually in a smaller font size.</p>
++
++    <p>E = mc<sup>2</sup></p>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/Website.html b/index.html
+similarity index 100%
+rename from Website.html
+rename to index.html
+
+commit b3782853ceb8972e6b8c3f02f6ff8c06365b6e2a
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-17 09:24:12 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-17 09:24:12 +0800
+
+    Added HTML file
+
+diff --git a/HTML b/HTML
+index ee35b46..f69af31 100644
+--- a/HTML
++++ b/HTML
+@@ -11,16 +11,16 @@
+     <h1>================================</h1>
+     <h1>MY PERSONAL PAGE</h1>
+     <h1>================================</h1>
++ 
++    <p>Pago, Shayne Earlle N.</p>
+ 
+-    <h2>Pago, Shayne Earlle N.</h2>
+     <p>Bachelor of Science in Information Technology</p>
+ 
+-    <hr>
++
+ 
+     <h2>About Me</h2>
+     <p>
+-        I am a student interested in web development and learning
+-        anything I can related to technology.
++        I am a student interested in web development and learning anything I can in the IT field.
+     </p>
+ 
+     <hr>
+diff --git a/HTML.html b/HTML.html
+new file mode 100644
+index 0000000..ee35b46
+--- /dev/null
++++ b/HTML.html
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Personal Page</title>
++</head>
++
++<body>
++
++    <h1>================================</h1>
++    <h1>MY PERSONAL PAGE</h1>
++    <h1>================================</h1>
++
++    <h2>Pago, Shayne Earlle N.</h2>
++    <p>Bachelor of Science in Information Technology</p>
++
++    <hr>
++
++    <h2>About Me</h2>
++    <p>
++        I am a student interested in web development and learning
++        anything I can related to technology.
++    </p>
++
++    <hr>
++
++    <h2>My Hobbies</h2>
++    <p>
++        I enjoy reading literature, going out to movies, and walking
++        through parks on a sunny day.
++    </p>
++
++    <p>=============================</p>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/Website.html b/Website.html
+new file mode 100644
+index 0000000..a452c1e
+--- /dev/null
++++ b/Website.html
+@@ -0,0 +1,28 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Personal Page</title>
++</head>
++
++<body>
++    <h1>=========================</h1>
++    <h1>MY PERSONAL PAGE</h1>
++    <h1>=========================</h1>
++
++    <h2>Pago, Shayne Earlle N.</h2>
++
++    <p>Bachelor of Science in Information Technology </p>
++
++    <p>About me</p>
++    <hr>
++    <p>I am a Shayne 18 years old, Born and raised in Benguet with a deep passion for technology and everything coding related.</p>
++
++    <p>My Hobbies</p>
++    <hr>
++    <p>I enjoy reading literature, going outside for walks, and playing billiards.</p>
++
++    <p>=======================================================</p>
++</body>
++</html>
+\ No newline at end of file
+
+commit 8f0145677ead3e6ac149ffdc7709618469a6c125
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-15 09:57:37 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-15 09:57:37 +0800
+
+    Added html.
+
+diff --git a/HTML b/HTML
+new file mode 100644
+index 0000000..ee35b46
+--- /dev/null
++++ b/HTML
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Personal Page</title>
++</head>
++
++<body>
++
++    <h1>================================</h1>
++    <h1>MY PERSONAL PAGE</h1>
++    <h1>================================</h1>
++
++    <h2>Pago, Shayne Earlle N.</h2>
++    <p>Bachelor of Science in Information Technology</p>
++
++    <hr>
++
++    <h2>About Me</h2>
++    <p>
++        I am a student interested in web development and learning
++        anything I can related to technology.
++    </p>
++
++    <hr>
++
++    <h2>My Hobbies</h2>
++    <p>
++        I enjoy reading literature, going out to movies, and walking
++        through parks on a sunny day.
++    </p>
++
++    <p>=============================</p>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit a23726bc612eb6a57de3b5b6c583bb01fc5a55f9
+Author:     Shayne <shaynepag@gmail.com>
+AuthorDate: 2026-09-05 09:08:16 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-05 09:08:16 +0800
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..b84f3f0
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++# WebTech
++CIT14
